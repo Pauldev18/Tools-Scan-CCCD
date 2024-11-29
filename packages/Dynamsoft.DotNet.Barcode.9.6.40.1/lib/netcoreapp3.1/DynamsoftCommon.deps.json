@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DynamsoftCommon/1.1.0.0608": {
+        "runtime": {
+          "DynamsoftCommon.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DynamsoftCommon/1.1.0.0608": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

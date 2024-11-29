@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	  <X64OutPut>x64\</X64OutPut>
+	  <X86OutPut>x86\</X86OutPut>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(Platform)' == 'x64' Or '$(Platform)' == 'AnyCPU'">
+    
+    <None Include="$(MSBuildThisFileDirectory)windows\x64\**">
+      <Link>$(X64OutPut)%(FileName)%(Extension)</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)resources\**">
+      <Link>$(X64OutPut)%(RecursiveDir)%(FileName)%(Extension)</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup Condition="'$(Platform)' == 'x86' Or '$(Platform)' == 'AnyCPU'">
+    <None Include="$(MSBuildThisFileDirectory)windows\x86\**">
+      <Link>$(X86OutPut)%(FileName)%(Extension)</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)resources\**">
+      <Link>$(X86OutPut)%(RecursiveDir)%(FileName)%(Extension)</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup Condition="('$(Platform)' == 'x64' Or '$(Platform)' == 'AnyCPU') And ('$(TargetFrameworkIdentifier)' != '.NETFramework')">
+    <None Include="$(MSBuildThisFileDirectory)linux\**">
+      <Link>$(RecursiveDir)%(FileName)%(Extension)</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)resources\**">
+      <Link>$(RecursiveDir)%(RecursiveDir)%(FileName)%(Extension)</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

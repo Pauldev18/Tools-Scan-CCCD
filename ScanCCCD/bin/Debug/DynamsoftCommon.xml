@@ -1,0 +1,774 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DynamsoftCommon</name>
+    </assembly>
+    <members>
+        <member name="T:Dynamsoft.EnumBarcodeFormat">
+            
+             @addtogroup Enumerations Enumerations  
+             @{     
+            
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_ALL">
+            <summary> All supported formats in BarcodeFormat group 1 </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_ONED">
+            <summary> Combined value of BF_CODABAR, BF_CODE_128, BF_CODE_39, BF_CODE_39_Extended, BF_CODE_93, BF_EAN_13, BF_EAN_8, INDUSTRIAL_25, BF_ITF, BF_UPC_A, BF_UPC_E, BF_MSI_CODE; </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_GS1_DATABAR">
+            <summary> Combined value of BF_GS1_DATABAR_OMNIDIRECTIONAL, BF_GS1_DATABAR_TRUNCATED, BF_GS1_DATABAR_STACKED, BF_GS1_DATABAR_STACKED_OMNIDIRECTIONAL, BF_GS1_DATABAR_EXPANDED, BF_GS1_DATABAR_EXPANDED_STACKED, BF_GS1_DATABAR_LIMITED; </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_CODE_39">
+            <summary> Code 39 </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_CODE_128">
+            <summary> Code 128 </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_CODE_93">
+            <summary> Code 93 </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_CODABAR">
+            <summary> Codabar </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_ITF">
+            <summary> Interleaved 2 of 5 </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_EAN_13">
+            <summary> EAN-13 </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_EAN_8">
+            <summary> EAN-8 </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_UPC_A">
+            <summary> UPC-A </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_UPC_E">
+            <summary> UPC-E </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_INDUSTRIAL_25">
+            <summary> Industrial 2 of 5 </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_CODE_39_EXTENDED">
+            <summary> Code39 Extended </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_GS1_DATABAR_OMNIDIRECTIONAL">
+            <summary> Databar Omnidirectional </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_GS1_DATABAR_TRUNCATED">
+            <summary> Databar Truncated </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_GS1_DATABAR_STACKED">
+            <summary> Databar Stacked </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_GS1_DATABAR_STACKED_OMNIDIRECTIONAL">
+            <summary> Databar Stacked Omnidirectional </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_GS1_DATABAR_EXPANDED">
+            <summary> Databar Expanded </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_GS1_DATABAR_EXPANDED_STACKED">
+            <summary> Databar Expaned Stacked </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_GS1_DATABAR_LIMITED">
+            <summary> Databar Limited </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_PATCHCODE">
+            <summary> Patch code. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_PDF417">
+            <summary> PDF417 </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_QR_CODE">
+            <summary> QRCode </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_DATAMATRIX">
+            <summary> DataMatrix </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_AZTEC">
+            <summary> AZTEC </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_MAXICODE">
+            <summary> MAXICODE </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_MICRO_QR">
+            <summary> Micro QR Code </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_MICRO_PDF417">
+            <summary> Micro PDF417 </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_GS1_COMPOSITE">
+            <summary> GS1 Composite Code </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_MSI_CODE">
+            <summary> MSI Code </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_CODE_11">
+            <summary> Code 11 </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat.BF_NULL">
+            <summary> No barcode format in BarcodeFormat group 1 </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat_2.BF2_NULL">
+            <summary> No barcode format in BarcodeFormat group 2 </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat_2.BF2_POSTALCODE">
+            <summary> Combined value of BF2_USPSINTELLIGENTMAIL, BF2_POSTNET, BF2_PLANET, BF2_AUSTRALIANPOST, BF2_RM4SCC. 
+            When you set this barcode format, the library will automatically add LM_STATISTICS_POSTAL_CODE to LocalizationModes if you doesn't set it.
+            </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat_2.BF2_NONSTANDARD_BARCODE">
+            <summary> Nonstandard barcode </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat_2.BF2_USPSINTELLIGENTMAIL">
+            <summary> USPS Intelligent Mail. 
+            When you set this barcode format, the library will automatically add LM_STATISTICS_POSTAL_CODE to LocalizationModes if you doesn't set it.
+            </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat_2.BF2_POSTNET">
+            <summary> Postnet. 
+            When you set this barcode format, the library will automatically add LM_STATISTICS_POSTAL_CODE to LocalizationModes if you doesn't set it.
+            </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat_2.BF2_PLANET">
+            <summary> Planet. 
+            When you set this barcode format, the library will automatically add LM_STATISTICS_POSTAL_CODE to LocalizationModes if you doesn't set it.
+            </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat_2.BF2_AUSTRALIANPOST">
+            <summary> Australian Post. 
+            When you set this barcode format, the library will automatically add LM_STATISTICS_POSTAL_CODE to LocalizationModes if you doesn't set it.
+            </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat_2.BF2_RM4SCC">
+            <summary> Royal Mail 4-State Customer Barcode. 
+            When you set this barcode format, the library will automatically add LM_STATISTICS_POSTAL_CODE to LocalizationModes if you doesn't set it.
+            </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat_2.BF2_DOTCODE">
+            <summary> DotCode. 
+            When you set this barcode format, the library will automatically add LM_STATISTICS_MARKS to LocalizationModes if you doesn't set it.
+            </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat_2.BF2_PHARMACODE_ONE_TRACK">
+            <summary> PharmaCode_ONE_TRACK. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat_2.BF2_PHARMACODE_TWO_TRACK">
+            <summary> PharmaCode_TWO_TRACK. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat_2.BF2_PHARMACODE">
+            <summary> PharmaCode. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumBarcodeFormat_2.BF2_ALL">
+            <summary> All barcodeformat_2. </summary>
+        </member>
+        <member name="T:Dynamsoft.EnumMirrorMode">
+            <summary> Describes the mirror mode. </summary> 
+        </member>
+        <member name="F:Dynamsoft.EnumMirrorMode.MM_NORMAL">
+            <summary> Normal mode. </summary> 
+        </member>
+        <member name="F:Dynamsoft.EnumMirrorMode.MM_MIRROR">
+            <summary> Mirror mode. </summary> 
+        </member>
+        <member name="F:Dynamsoft.EnumMirrorMode.MM_BOTH">
+            <summary> Both of normal mode and mirror mode. </summary> 
+        </member>
+        <member name="T:Dynamsoft.EnumResultType">
+            <summary> Describes the extended result type. </summary> 
+        </member>
+        <member name="F:Dynamsoft.EnumResultType.RT_STANDARD_TEXT">
+            <summary> Specifies the standard text. This means the barcode value. </summary> 
+        </member>
+        <member name="F:Dynamsoft.EnumResultType.RT_RAW_TEXT">
+            <summary> Specifies the raw text. This means the text that includes start/stop characters, check digits, etc. </summary> 
+        </member>
+        <member name="F:Dynamsoft.EnumResultType.RT_CANDIDATE_TEXT">
+            <summary> Specifies all the candidate text. This means all the standard text results decoded from the barcode. </summary> 
+        </member>
+        <member name="F:Dynamsoft.EnumResultType.RT_PARTIAL_TEXT">
+            <summary> Specifies the partial Text. This means part of the text result decoded from the barcode. </summary> 
+        </member>
+        <member name="T:Dynamsoft.EnumTerminatePhase">
+            <summary> Describes the terminate phase. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumTerminatePhase.TP_REGION_PREDETECTED">
+            <summary> Exits the barcode reading algorithm after the region predetection is done. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumTerminatePhase.TP_IMAGE_PREPROCESSED">
+            <summary> Exits the barcode reading algorithm after the region predetection and image pre-processing is done. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumTerminatePhase.TP_IMAGE_BINARIZED">
+            <summary> Exits the barcode reading algorithm after the region predetection, image pre-processing and image binarization are done. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumTerminatePhase.TP_BARCODE_LOCALIZED">
+            <summary> Exits the barcode reading algorithm after the region predetection, image pre-processing, image binarization and barcode localization are done. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumTerminatePhase.TP_BARCODE_TYPE_DETERMINED">
+            <summary> Exits the barcode reading algorithm after the region predetection, image pre-processing, image binarization, barcode localization and barcode type determining are done. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumTerminatePhase.TP_BARCODE_RECOGNIZED">
+            <summary> Exits the barcode reading algorithm after the region predetection, image pre-processing, image binarization, barcode localization, barcode type determining and barcode recognition are done. </summary>
+        </member>
+        <member name="T:Dynamsoft.EnumQRCodeErrorCorrectionLevel">
+            <summary> Describes the QR Code error correction level. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumQRCodeErrorCorrectionLevel.QRECL_ERROR_CORRECTION_H">
+            <summary> Error Correction Level H (high) </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumQRCodeErrorCorrectionLevel.QRECL_ERROR_CORRECTION_L">
+            <summary> Error Correction Level L (low) </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumQRCodeErrorCorrectionLevel.QRECL_ERROR_CORRECTION_M">
+            <summary> Error Correction Level M (medium-low) </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumQRCodeErrorCorrectionLevel.QRECL_ERROR_CORRECTION_Q">
+            <summary> Error Correction Level  Q (medium-high) </summary>
+        </member>
+        <member name="T:Dynamsoft.EnumResultCoordinateType">
+            <summary> Describes the result coordinate type. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumResultCoordinateType.RCT_PIXEL">
+            <summary> Returns the coordinate in pixel value. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumResultCoordinateType.RCT_PERCENTAGE">
+            <summary> Returns the coordinate as a percentage. </summary>
+        </member>
+        <member name="T:Dynamsoft.EnumDMDeploymentType">
+            <summary> Describes the deployment type. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMDeploymentType.DM_DT_SERVER">
+            <summary> Server deployment type </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMDeploymentType.DM_DT_DESKTOP">
+            <summary> Desktop </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMDeploymentType.DM_DT_EMBEDDED_DEVICE">
+            <summary> Embedded device deployment type </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMDeploymentType.DM_DT_OEM">
+            <summary> OEM deployment type </summary>
+        </member>
+        <member name="T:Dynamsoft.EnumDMLicenseModule">
+            <summary> Describes the license module. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMLicenseModule.DM_LM_ONED">
+            <summary> One-D barcodes license module </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMLicenseModule.DM_LM_QR_CODE">
+            <summary> QR Code barcodes license module </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMLicenseModule.DM_LM_PDF417">
+            <summary> PDF417 barcodes license module </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMLicenseModule.DM_LM_DATAMATRIX">
+            <summary> Datamatrix barcodes license module </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMLicenseModule.DM_LM_AZTEC">
+            <summary> Aztec barcodes license module </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMLicenseModule.DM_LM_MAXICODE">
+            <summary> MAXICODE barcodes license module </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMLicenseModule.DM_LM_PATCHCODE">
+            <summary> Patch code barcodes license module </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMLicenseModule.DM_LM_GS1_DATABAR">
+            <summary> GS1 Databar barcodes license module </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMLicenseModule.DM_LM_GS1_COMPOSITE">
+            <summary> GS1 Composite barcodes license module </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMLicenseModule.DM_LM_POSTALCODE">
+            <summary> Postal code barcodes license module </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMLicenseModule.DM_LM_DOTCODE">
+            <summary> DotCode barcodes license module </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMLicenseModule.DM_LM_INTERMEDIATE_RESULT">
+            <summary> Intermediate result license module </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMLicenseModule.DM_LM_DPM">
+            <summary> Datamatrix DPM(Direct Part Marking) license module </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMLicenseModule.DM_LM_NONSTANDARD_BARCODE">
+            <summary> Nonstandard barcodes license module </summary>
+        </member>
+        <member name="T:Dynamsoft.EnumDMUUIDGenerationMethod">
+            <summary> Describes the UUID generation method. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMUUIDGenerationMethod.DM_UUIDGM_RANDOM">
+            <summary> Generates UUID with randon values. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMUUIDGenerationMethod.DM_UUIDGM_HARDWARE">
+            <summary> Generates UUID based on hardware info. </summary>
+        </member>
+        <member name="T:Dynamsoft.EnumDMChargeWay">
+            <summary> Describes the charge way. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMChargeWay.DM_CW_AUTO">
+            <summary> The charge way automatically determined by the license server. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMChargeWay.DM_CW_DEVICE_COUNT">
+            <summary> Charges by the count of devices. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMChargeWay.DM_CW_SCAN_COUNT">
+            <summary> Charges by the count of barcode scans. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMChargeWay.DM_CW_CONCURRENT_DEVICE_COUNT">
+            <summary> Charges by the count of concurrent devices. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMChargeWay.DM_CW_APP_DOMIAN_COUNT">
+            <summary> Charges by the count of app domains. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMChargeWay.DM_CW_ACTIVE_DEVICE_COUNT">
+            <summary> Charges by the count of active devices. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMChargeWay.DM_CW_INSTANCE_COUNT">
+            <summary> Charges by the count of instances. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumDMChargeWay.DM_CW_CONCURRENT_INSTANCE_COUNT">
+            <summary> Charges by the count of concurrent instances. </summary>
+        </member>
+        <member name="T:Dynamsoft.EnumProduct">
+            <summary> Describes the product. </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumProduct.PROD_DBR">
+            <summary> Dynamsoft Barcode Reader </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumProduct.PROD_DLR">
+            <summary> Dynamsoft Label Recognizer </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumProduct.PROD_DWT">
+            <summary> Dynamic Web Twain </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumProduct.PROD_DCE">
+            <summary> Dynamsoft Camera Enhancer </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumProduct.PROD_DPS">
+            <summary> Dynamsoft Panorama </summary>
+        </member>
+        <member name="F:Dynamsoft.EnumProduct.PROD_ALL">
+            <summary> All products </summary>
+        </member>
+        <member name="T:Dynamsoft.tagExtendedResult">
+            <summary> Just for Inner. </summary>
+        </member>
+        <member name="T:Dynamsoft.tagLocalizationResult">
+            <summary> Just for Inner. </summary>
+        </member>
+        <member name="T:Dynamsoft.tagTextResult">
+            <summary> Just for Inner. </summary>
+        </member>
+        <member name="T:Dynamsoft.tagTextResultArray">
+            <summary> Just for Inner. </summary>
+        </member>
+        <member name="T:Dynamsoft.tagOneDCodeDetails">
+            <summary> Just for Inner. </summary>
+        </member>
+        <member name="T:Dynamsoft.tagQRCodeDetails">
+            <summary> Just for Inner. </summary>
+        </member>
+        <member name="T:Dynamsoft.tagPDF417Details">
+            <summary> Just for Inner. </summary>
+        </member>
+        <member name="T:Dynamsoft.tagDataMatrixDetails">
+            <summary> Just for Inner. </summary>
+        </member>
+        <member name="T:Dynamsoft.tagAztecDetails">
+            <summary> Just for Inner. </summary>
+        </member>
+        <member name="T:Dynamsoft.tagPoint">
+            <summary> Just for Inner. </summary>
+        </member>
+        <member name="T:Dynamsoft.tagSamplingImageData">
+            <summary> Just for Inner. </summary>
+        </member>
+        <member name="T:Dynamsoft.tagDMDLSConnectionParameters">
+            <summary> Just for Inner. </summary>
+        </member>
+        <member name="T:Dynamsoft.TextResult">
+            
+             @class TextResult   
+             
+             <summary> Stores the text results including the barcode type, barcode text, bytes and localization result. </summary>
+             
+        </member>
+        <member name="P:Dynamsoft.TextResult.BarcodeFormat">
+            <summary> Barcode type in BarcodeFormat group 1 </summary> 
+        </member>
+        <member name="P:Dynamsoft.TextResult.BarcodeFormatString">
+            <summary> Barcode type in BarcodeFormat group 1 as string </summary> 
+        </member>
+        <member name="P:Dynamsoft.TextResult.BarcodeFormat_2">
+            <summary> Barcode type in BarcodeFormat group 2 </summary> 
+        </member>
+        <member name="P:Dynamsoft.TextResult.BarcodeFormatString_2">
+            <summary> Barcode type in BarcodeFormat group 2 as string </summary> 
+        </member>
+        <member name="P:Dynamsoft.TextResult.BarcodeText">
+            <summary> The barcode text </summary> 
+        </member>
+        <member name="P:Dynamsoft.TextResult.BarcodeBytes">
+            <summary> The barcode content in a byte array </summary> 
+        </member>
+        <member name="P:Dynamsoft.TextResult.LocalizationResult">
+            <summary> The corresponding localization result </summary> 
+        </member>
+        <member name="P:Dynamsoft.TextResult.Results">
+            <summary> The extended result array </summary> 
+        </member>
+        <member name="P:Dynamsoft.TextResult.DetailedResult">
+            <summary> One of the following: QRCodeDetails, PDF417Details, DataMatrixDetails, AztecDetails, OneDCodeDetails. </summary>
+        </member>
+        <member name="P:Dynamsoft.TextResult.Exception">
+            <summary> Exception </summary>
+        </member>
+        <member name="P:Dynamsoft.TextResult.IsDPM">
+            <summary> DPM mark </summary>
+        </member>
+        <member name="P:Dynamsoft.TextResult.IsMirrored">
+            <summary> Mirror flag </summary>
+        </member>
+        <member name="T:Dynamsoft.ExtendedResult">
+            
+             @class ExtendedResult
+                    
+             <summary> Stores the extended result. </summary>
+            
+        </member>
+        <member name="P:Dynamsoft.ExtendedResult.ResultType">
+            <summary> Extended result type </summary> 
+        </member>
+        <member name="P:Dynamsoft.ExtendedResult.BarcodeFormat">
+            <summary> Barcode type in BarcodeFormat group 1 </summary> 
+        </member>
+        <member name="P:Dynamsoft.ExtendedResult.BarcodeFormatString">
+            <summary> Barcode type in BarcodeFormat group 1 as string </summary> 
+        </member>
+        <member name="P:Dynamsoft.ExtendedResult.BarcodeFormat_2">
+            <summary> Barcode type in BarcodeFormat group 2 </summary> 
+        </member>
+        <member name="P:Dynamsoft.ExtendedResult.BarcodeFormatString_2">
+            <summary> Barcode type in BarcodeFormat group 2 as string </summary>
+        </member>
+        <member name="P:Dynamsoft.ExtendedResult.Confidence">
+            <summary> The confidence of the result </summary> 
+        </member>
+        <member name="P:Dynamsoft.ExtendedResult.Deformation">
+            <summary> The deformation value </summary>
+        </member>
+        <member name="P:Dynamsoft.ExtendedResult.Bytes">
+            <summary> The content in a byte array </summary> 
+        </member>
+        <member name="P:Dynamsoft.ExtendedResult.AccompanyingTextBytes">
+            <summary> The accompanying text content in a byte array  </summary>
+        </member>
+        <member name="P:Dynamsoft.ExtendedResult.DetailedResult">
+            <summary> One of the following: QRCodeDetails, PDF417Details, DataMatrixDetails, AztecDetails, OneDCodeDetails.  </summary>
+        </member>
+        <member name="P:Dynamsoft.ExtendedResult.SamplingImage">
+            <summary> The sampling image info. </summary>
+        </member>
+        <member name="P:Dynamsoft.ExtendedResult.Clarity">
+            <summary> The clarity of the barcode zone in percentage. </summary>
+        </member>
+        <member name="T:Dynamsoft.LocalizationResult">
+             
+            @class LocalizationResult
+                    
+            <summary> Stores the localization results </summary>
+             
+        </member>
+        <member name="P:Dynamsoft.LocalizationResult.TerminatePhase">
+            <summary> The terminate phase of localization result. </summary> 
+        </member>
+        <member name="P:Dynamsoft.LocalizationResult.BarcodeFormat">
+            <summary> Barcode type in BarcodeFormat group 1 </summary> 
+        </member>
+        <member name="P:Dynamsoft.LocalizationResult.BarcodeFormatString">
+            <summary> Barcode type in BarcodeFormat group 1 as string </summary> 
+        </member>
+        <member name="P:Dynamsoft.LocalizationResult.BarcodeFormat_2">
+            <summary> Barcode type in BarcodeFormat group 2 </summary> 
+        </member>
+        <member name="P:Dynamsoft.LocalizationResult.BarcodeFormatString_2">
+            <summary> Barcode type in BarcodeFormat group 2 as string </summary> 
+        </member>
+        <member name="P:Dynamsoft.LocalizationResult.Angle">
+            <summary> The angle of a barcode. Values range from 0 to 360. </summary> 
+        </member>
+        <member name="P:Dynamsoft.LocalizationResult.ResultPoints">
+            <summary> The array which stores the coordinates of four result points. </summary> 
+        </member>
+        <member name="P:Dynamsoft.LocalizationResult.ModuleSize">
+            <summary> The barcode module size (the minimum bar width in pixel). </summary> 
+        </member>
+        <member name="P:Dynamsoft.LocalizationResult.PageNumber">
+            <summary> The page number the barcode located in. The index is 0-based. </summary> 
+        </member>
+        <member name="P:Dynamsoft.LocalizationResult.RegionName">
+            <summary> The region name the barcode located in. </summary> 
+        </member>
+        <member name="P:Dynamsoft.LocalizationResult.DocumentName">
+            <summary> The document name. </summary> 
+        </member>
+        <member name="P:Dynamsoft.LocalizationResult.AccompanyingTextBytes">
+            <summary> The accompanying text content in a byte array. </summary>
+        </member>
+        <member name="P:Dynamsoft.LocalizationResult.Confidence">
+            <summary> The confidence of the localization result. </summary>
+        </member>
+        <member name="T:Dynamsoft.OneDCodeDetails">
+             
+            @class OneDCodeDetails
+                    
+            <summary> Stores the OneD code details</summary>
+            
+        </member>
+        <member name="P:Dynamsoft.OneDCodeDetails.ModuleSize">
+            <summary> The barcode module size (the minimum bar width in pixel). </summary>
+        </member>
+        <member name="P:Dynamsoft.OneDCodeDetails.StartCharsBytes">
+            <summary> The start chars in a byte array. </summary>
+        </member>
+        <member name="P:Dynamsoft.OneDCodeDetails.StopCharsBytes">
+            <summary> The stop chars in a byte array. </summary>
+        </member>
+        <member name="P:Dynamsoft.OneDCodeDetails.CheckDigitBytes">
+            <summary> The check digit chars in a byte array. </summary>
+        </member>
+        <member name="P:Dynamsoft.OneDCodeDetails.StartPatternRange">
+            <summary>
+            The position of the start pattern relative to the barcode location.
+            Index 0 : X coordinate of the start position in percentage value;  
+            Index 1 : X coordinate of the end position in percentage value.
+            </summary>
+        </member>
+        <member name="P:Dynamsoft.OneDCodeDetails.MiddlePatternRange">
+            <summary>
+            The position of the middle pattern relative to the barcode location.
+            Index 0 : X coordinate of the start position in percentage value;  
+            Index 1 : X coordinate of the end position in percentage value.
+            </summary>
+        </member>
+        <member name="P:Dynamsoft.OneDCodeDetails.EndPatternRange">
+            <summary>
+            The position of the end pattern relative to the barcode location.
+            Index 0 : X coordinate of the start position in percentage value;  
+            Index 1 : X coordinate of the end position in percentage value.
+            </summary>
+        </member>
+        <member name="T:Dynamsoft.QRCodeDetails">
+             
+            @class QRCodeDetails
+                    
+            <summary> Stores the QRCode details </summary>
+            
+        </member>
+        <member name="P:Dynamsoft.QRCodeDetails.ModuleSize">
+            <summary> The barcode module size (the minimum bar width in pixel). </summary>
+        </member>
+        <member name="P:Dynamsoft.QRCodeDetails.Rows">
+            <summary> The row count of the barcode. </summary>
+        </member>
+        <member name="P:Dynamsoft.QRCodeDetails.Columns">
+            <summary> The column count of the barcode. </summary>
+        </member>
+        <member name="P:Dynamsoft.QRCodeDetails.ErrorCorrectionLevel">
+            <summary> The column count of the barcode. </summary>
+        </member>
+        <member name="P:Dynamsoft.QRCodeDetails.Version">
+            <summary> The version of the QR Code. </summary>
+        </member>
+        <member name="P:Dynamsoft.QRCodeDetails.Model">
+            <summary> Number of the models. </summary>
+        </member>
+        <member name="P:Dynamsoft.QRCodeDetails.Mode">
+            <summary> Identify the first data encoding mode </summary>
+        </member>
+        <member name="P:Dynamsoft.QRCodeDetails.Page">
+            <summary> Identify the position of the particular symbol </summary>
+        </member>
+        <member name="P:Dynamsoft.QRCodeDetails.TotalPage">
+            <summary> Identify the total number of symbols to be concatenated int the Structured Append format </summary>
+        </member>
+        <member name="P:Dynamsoft.QRCodeDetails.ParityData">
+            <summary> The Parity Data shall be an 8 bit byte following the Symbol Sequence Indicator. 
+            The parity data is a value obtained by XORing byte by byte the ASCII/JIS values of all the original input data before division into symbol blocks. 
+            </summary>
+        </member>
+        <member name="T:Dynamsoft.PDF417Details">
+             
+            @class PDF417Details
+                    
+            <summary> Stores the PDF417 details </summary>
+            
+        </member>
+        <member name="P:Dynamsoft.PDF417Details.ModuleSize">
+            <summary> The barcode module size (the minimum bar width in pixel). </summary>
+        </member>
+        <member name="P:Dynamsoft.PDF417Details.Rows">
+            <summary> The row count of the barcode. </summary>
+        </member>
+        <member name="P:Dynamsoft.PDF417Details.Columns">
+            <summary> The column count of the barcode. </summary>
+        </member>
+        <member name="P:Dynamsoft.PDF417Details.ErrorCorrectionLevel">
+            <summary> The error correction level of the barcode. </summary>
+        </member>
+        <member name="P:Dynamsoft.PDF417Details.HasLeftRowIndicator">
+            <summary> Whether the left row indicator of the PDF417 code exists. </summary>
+        </member>
+        <member name="P:Dynamsoft.PDF417Details.HasRightRowIndicator">
+            <summary> Whether the right  row indicator of the PDF417 code exists. </summary>
+        </member>
+        <member name="T:Dynamsoft.DataMatrixDetails">
+             
+            @class DataMatrixDetails
+                    
+            <summary> Stores the DataMatrix details </summary>
+            
+        </member>
+        <member name="P:Dynamsoft.DataMatrixDetails.ModuleSize">
+            <summary> The barcode module size (the minimum bar width in pixel). </summary>
+        </member>
+        <member name="P:Dynamsoft.DataMatrixDetails.Rows">
+            <summary> The row count of the barcode. </summary>
+        </member>
+        <member name="P:Dynamsoft.DataMatrixDetails.Columns">
+            <summary> The column count of the barcode. </summary>
+        </member>
+        <member name="P:Dynamsoft.DataMatrixDetails.DataRegionRows">
+            <summary> The data region row count of the barcode. </summary>
+        </member>
+        <member name="P:Dynamsoft.DataMatrixDetails.DataRegionColumns">
+            <summary> The data region column count of the barcode. </summary>
+        </member>
+        <member name="P:Dynamsoft.DataMatrixDetails.DataRegionNumber">
+            <summary> The data region count </summary>
+        </member>
+        <member name="T:Dynamsoft.AztecDetails">
+             
+            @class AztecDetails
+                    
+            <summary> Stores the Aztec details </summary>
+            
+        </member>
+        <member name="P:Dynamsoft.AztecDetails.ModuleSize">
+            <summary> The barcode module size (the minimum bar width in pixel). </summary>
+        </member>
+        <member name="P:Dynamsoft.AztecDetails.Rows">
+            <summary> The row count of the barcode. </summary>
+        </member>
+        <member name="P:Dynamsoft.AztecDetails.Columns">
+            <summary> The column count of the barcode. </summary>
+        </member>
+        <member name="P:Dynamsoft.AztecDetails.LayerNumber">
+            <summary> A negative number (-1, -2, -3, -4) specifies a compact Aztec code. </summary>
+            <summary> A positive number (1, 2, .. 32) specifies a normal (full-rang) Aztec code. </summary>
+        </member>
+        <member name="T:Dynamsoft.SamplingImageData">
+             
+            @class SamplingImageData
+                    
+            <summary> Stores the sampling image data </summary>
+            
+        </member>
+        <member name="P:Dynamsoft.SamplingImageData.Bytes">
+            <summary> The sampling image data in a byte array. </summary>
+        </member>
+        <member name="P:Dynamsoft.SamplingImageData.Width">
+            <summary> The width of the sampling image. </summary>
+        </member>
+        <member name="P:Dynamsoft.SamplingImageData.Height">
+            <summary> The height of the sampling image. </summary>
+        </member>
+        <member name="T:Dynamsoft.DMLTSConnectionParameters">
+             
+            @class DMLTSConnectionParameters
+                    
+            <summary> Stores Dynamsoft License Server connection parameters. </summary>
+            
+        </member>
+        <member name="P:Dynamsoft.DMLTSConnectionParameters.MainServerURL">
+            <summary> The URL of the license tracking server. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMLTSConnectionParameters.StandbyServerURL">
+            <summary> The URL of the standby license tracking server. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMLTSConnectionParameters.HandshakeCode">
+            <summary> The handshake code. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMLTSConnectionParameters.SessionPassword">
+            <summary> The session password of the handshake code set in license tracking server. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMLTSConnectionParameters.DeploymentType">
+            <summary> Sets the deployment type. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMLTSConnectionParameters.ChargeWay">
+            <summary> Sets the charge way. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMLTSConnectionParameters.UUIDGenerationMethod">
+            <summary> Sets the method to generate UUID. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMLTSConnectionParameters.MaxBufferDays">
+            <summary> Sets the max days to buffer the license info. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMLTSConnectionParameters.LimitedLicenseModules">
+            <summary> Sets the license modules to use. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMLTSConnectionParameters.MaxConcurrentInstanceCount">
+            <summary> Sets the max concurrent instance count. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMLTSConnectionParameters.OrganizationID">
+            <summary> Sets the organization ID. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMLTSConnectionParameters.Products">
+            <summary> Sets the products. A combined value of Product Enumration items. </summary>
+        </member>
+        <member name="T:Dynamsoft.DMDLSConnectionParameters">
+             
+            @class DMDLSConnectionParameters
+                    
+            <summary> Stores Dynamsoft License Server connection parameters. </summary>
+            
+        </member>
+        <member name="P:Dynamsoft.DMDLSConnectionParameters.MainServerURL">
+            <summary> The URL of the license tracking server. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMDLSConnectionParameters.StandbyServerURL">
+            <summary> The URL of the standby license tracking server. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMDLSConnectionParameters.HandshakeCode">
+            <summary> The handshake code. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMDLSConnectionParameters.SessionPassword">
+            <summary> The session password of the handshake code set in license tracking server. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMDLSConnectionParameters.DeploymentType">
+            <summary> Sets the deployment type. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMDLSConnectionParameters.ChargeWay">
+            <summary> Sets the charge way. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMDLSConnectionParameters.UUIDGenerationMethod">
+            <summary> Sets the method to generate UUID. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMDLSConnectionParameters.MaxBufferDays">
+            <summary> Sets the max days to buffer the license info. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMDLSConnectionParameters.LimitedLicenseModules">
+            <summary> Sets the license modules to use. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMDLSConnectionParameters.MaxConcurrentInstanceCount">
+            <summary> Sets the max concurrent instance count. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMDLSConnectionParameters.OrganizationID">
+            <summary> Sets the organization ID. </summary>
+        </member>
+        <member name="P:Dynamsoft.DMDLSConnectionParameters.Products">
+            <summary> Sets the products. A combined value of Product Enumration items. </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Dynamsoft.BarcodeReader/9.6.40.0220": {
+        "dependencies": {
+          "DynamsoftCommon": "1.1.0.608"
+        },
+        "runtime": {
+          "Dynamsoft.BarcodeReader.dll": {}
+        }
+      },
+      "DynamsoftCommon/1.1.0.608": {
+        "runtime": {
+          "DynamsoftCommon.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dynamsoft.BarcodeReader/9.6.40.0220": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DynamsoftCommon/1.1.0.608": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
